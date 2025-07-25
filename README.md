@@ -239,20 +239,10 @@ If you encounter any issues, try a clean installation:
 # Mac/Linux
 ./start-app.sh clean
 ./start-app.sh install
+./start-app.sh run
 
 # Windows
 start-app.bat clean
 start-app.bat install
+start-app.bat run
 ```
-
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
-
-## License
-
-This project is licensed under the ISC License.
