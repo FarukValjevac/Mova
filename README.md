@@ -20,7 +20,17 @@ cd Desktop/mova-main
 cd Desktop\mova-main
 ```
 
-### Step 3: Run the Magic Script
+### Step 3: Configure Email (Important!)
+
+1. The script creates a file called `backend/.env`
+2. Edit it and add your Gmail credentials:
+   ```
+   EMAIL_USER=your-email@gmail.com
+   EMAIL_PASS=your-app-password
+   ```
+3. **Important:** Use Gmail App Password, not regular password!
+
+### Step 4: Run the Magic Script
 
 **Mac/Linux:**
 
@@ -36,16 +46,6 @@ chmod +x start-app.sh
 start-app.bat install
 start-app.bat run
 ```
-
-### Step 4: Configure Email (Important!)
-
-1. The script creates a file called `backend/.env`
-2. Edit it and add your Gmail credentials:
-   ```
-   EMAIL_USER=your-email@gmail.com
-   EMAIL_PASS=your-app-password
-   ```
-3. **Important:** Use Gmail App Password, not regular password!
 
 ### Step 5: Done! 🎉
 
