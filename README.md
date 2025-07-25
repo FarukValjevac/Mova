@@ -20,7 +20,22 @@ cd Desktop/mova-main
 cd Desktop\mova-main
 ```
 
-### Step 3: Configure Email (Important!)
+### Step 3: Run the Magic Script (install)
+
+**Mac/Linux:**
+
+```bash
+chmod +x start-app.sh
+./start-app.sh install
+```
+
+**Windows:**
+
+```cmd
+start-app.bat install
+```
+
+### Step 4: Configure Email (Important!)
 
 1. The script creates a file called `backend/.env`
 2. Edit it and add your Gmail credentials:
@@ -30,13 +45,11 @@ cd Desktop\mova-main
    ```
 3. **Important:** Use Gmail App Password, not regular password!
 
-### Step 4: Run the Magic Script
+### Step 5: Run the Magic Script (run)
 
 **Mac/Linux:**
 
 ```bash
-chmod +x start-app.sh
-./start-app.sh install
 ./start-app.sh run
 ```
 
@@ -44,10 +57,9 @@ chmod +x start-app.sh
 
 ```cmd
 start-app.bat install
-start-app.bat run
 ```
 
-### Step 5: Done! 🎉
+### Step 6: Done! 🎉
 
 - Your website opens automatically at http://localhost:3001
 - Press **Ctrl+C** to stop the servers
