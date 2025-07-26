@@ -1,4 +1,4 @@
-import { IsEmail, IsNotEmpty, IsOptional, IsString } from 'class-validator';
+import { IsEmail, IsNotEmpty, IsOptional, IsString, IsBoolean } from 'class-validator';
 
 export class CreateEarlyBirdDto {
   @IsNotEmpty()
@@ -16,4 +16,8 @@ export class CreateEarlyBirdDto {
   @IsOptional()
   @IsString()
   company?: string;
+
+  @IsNotEmpty()
+  @IsBoolean()
+  termsAccepted: boolean;
 }
